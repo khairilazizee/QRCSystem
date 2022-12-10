@@ -6,11 +6,12 @@ include"phpqrcode/qrlib.php";
 $folderTemp = 'imageqr/';
 $a = $_POST['id_matrik'];
 $b = $_POST['fullname'];
-$c = $a;
-$d = $a.".png";//format nama gambar qrcode
 $e = $_POST['department'];
 $f = $_POST['level'];
 $g = $_POST['branch'];
+$c = $a;
+$d = $a.".png";//format nama gambar qrcode
+
 
 //ukuran size qrcode
 $qual = 'H';
