@@ -40,7 +40,7 @@ $a[] = "Vicky";
 $q = $_REQUEST["q"];
 
 //$hint = "";
-$con = mysqli_connect('localhost','root','','qr_convo');
+$con = mysqli_connect('localhost','root','','qrs');
 // Check connection
 if (mysqli_connect_errno())
 {
