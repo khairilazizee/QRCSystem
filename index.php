@@ -18,7 +18,7 @@
       <a class="nav-link" href="praktisqr2/index.php">Register</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">List</a>
+      <a class="nav-link" href="list.php">List</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="qrcodecam/index.php">Cam Scanner</a>
