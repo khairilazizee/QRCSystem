@@ -45,8 +45,8 @@ function playAudio() {
 
   </script>
   <div class="col" style="padding:30px;">
-    <!--<h4>SCAN RESULT</h4>
-    <div>Employee name</div>--><form action="">
+    <!--<h4>SCAN RESULT</h4>-->
+    <div>Employee name</div><form action="">
      <input type="text" name="start" class="input" id="result" onkeyup="showHint(this.value)" placeholder="result here" readonly="" /></form>
      <!--<p>Status: <span id="txtHint"></span></p>-->
   </div>
