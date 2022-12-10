@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 10, 2022 at 04:45 AM
+-- Generation Time: Dec 10, 2022 at 04:36 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -32,8 +32,16 @@ CREATE TABLE `details_members` (
   `fullname` text NOT NULL,
   `department` text NOT NULL,
   `level` text NOT NULL,
-  `branch` text NOT NULL
+  `branch` text NOT NULL,
+  `imageqr` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `details_members`
+--
+
+INSERT INTO `details_members` (`id_matrik`, `fullname`, `department`, `level`, `branch`, `imageqr`) VALUES
+('mcs214560', 'test', 'mcs214560.png', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -47,14 +55,12 @@ CREATE TABLE `logs` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Indexes for dumped tables
+-- Dumping data for table `logs`
 --
 
---
--- Indexes for table `details_members`
---
-ALTER TABLE `details_members`
-  ADD PRIMARY KEY (`id_matrik`);
+INSERT INTO `logs` (`name`, `Time`) VALUES
+('mcs123456', '2022-12-10 23:07:46'),
+('testor', '2022-12-10 23:14:55');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
