@@ -24,7 +24,7 @@
     </div>
     <div class="form-group">
       <label for="department">Department:</label>
-          <select id="department" class="form-control">
+          <select id="department" class="form-control" name="department" >
             <option value="-Options-">-Options-</option>
             <option value="Computer System">Computer System</option>
             <option value="Culinary">Culinary</option>
@@ -35,7 +35,7 @@
     </div>
     <div class="form-group">
       <label for="level">Level:</label>
-          <select id="level" class="form-control">
+          <select id="level" class="form-control" name="level">
             <option value="-Options-">-Options-</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -45,7 +45,7 @@
     </div>
     <div class="form-group">
       <label for="branch">Branch:</label>
-          <select id="level" class="form-control">
+          <select id="branch" class="form-control" name="branch">
             <option value="-Options-">-Options-</option>
             <option value="Breyer Kuala Lumpur">Breyer Kuala Lumpur</option>
             <option value="Breyer Gombak">Breyer Gombak</option>
