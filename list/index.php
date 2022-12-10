@@ -112,7 +112,7 @@
 			
 			while($row = mysqli_fetch_assoc($result)){
 				
-				$datasaya .= "<tr><td>" . $row["id_matrik"] . "</td><td>" . $row["fullname"] . "</td><td>" .$row["department"]. "</td><td>" .$row["level"]. "</td><td>" .$row["branch"]. "</td><td><img src='qr/" .$row["id_matrik"]. ".png' width='100px'></td></tr>";
+				$datasaya .= "<tr><td>" . $row["id_matrik"] . "</td><td>" . $row["fullname"] . "</td><td>" .$row["department"]. "</td><td>" .$row["level"]. "</td><td>" .$row["branch"]. "</td><td><img src='../praktisqr2/imageqr/" .$row["id_matrik"]. ".png' width='100px'></td></tr>";
 
 			}
 			
