@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>QRC System</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -18,7 +18,7 @@
       <a class="nav-link" href="praktisqr2/index.php">Register</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="list.php">List</a>
+      <a class="nav-link" href="list/index.php">List</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="qrcodecam/index.php">Cam Scanner</a>

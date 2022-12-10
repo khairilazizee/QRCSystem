@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+<title>QRC System</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -12,10 +12,10 @@
 <body>
 
 <div class="container">
-  <h2>Input data</h2>
+  <h2>Register Form</h2>
   <form action="proses.php" method="POST">
     <div class="form-group">
-      <label for="id_matrik">ID Data:</label>
+      <label for="id_matrik">ID Matrik:</label>
       <input type="text" class="form-control" name="id_matrik">
     </div>
     <div class="form-group">

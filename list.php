@@ -98,6 +98,7 @@ $mysqli->close();
                 <td><?php echo $rows['level'];?></td>
                 <td><?php echo $rows['branch'];?></td>
                 <td><?php echo $rows['imageqr'];?></td>
+                <td><img src='praktisqr2/imageqr/" .$rows["id_matrik"]. ".png' width='64px'></td>
             </tr>
             <?php
                 }
