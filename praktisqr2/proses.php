@@ -6,9 +6,9 @@ include"phpqrcode/qrlib.php";
 $folderTemp = 'imageqr/';
 $a = $_POST['id_matrik'];
 $b = $_POST['fullname'];
-$e = $_POST['department'];
-$f = $_POST['level'];
-$g = $_POST['branch'];
+print_r($_session)$e = $_POST['department'];
+print_r($_session)$f = $_POST['level'];
+print_r($_session)$g = $_POST['branch'];
 $c = $a;
 $d = $a.".png";//format nama gambar qrcode
 
@@ -20,7 +20,7 @@ $padding = 10;
 
 //call functions
 QRCode :: png($c,$folderTemp.$d,$qual,$ukuran,$padding);
-$sql = $conn->query("INSERT INTO details_members VALUE('$a','$b','$d','$e','$f','$g')");
+$sql = $conn->query("INSERT INTO details_members VALUE('$a','$b','$e','$f','$g','$d')");
 
 return('http://localhost/QRCSystem/');
 //if($sql){
