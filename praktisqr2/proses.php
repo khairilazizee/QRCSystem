@@ -6,9 +6,9 @@ include"phpqrcode/qrlib.php";
 $folderTemp = 'imageqr/';
 $a = $_POST['id_matrik'];
 $b = $_POST['fullname'];
-print_r($_session)$e = $_POST['department'];
-print_r($_session)$f = $_POST['level'];
-print_r($_session)$g = $_POST['branch'];
+$e = $_POST['department'];
+$f = $_POST['level'];
+$g = $_POST['branch'];
 $c = $a;
 $d = $a.".png";//format nama gambar qrcode
 
