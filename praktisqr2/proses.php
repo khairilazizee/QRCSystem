@@ -1,7 +1,7 @@
 <?php
 
 //code input data to database
-include"koneksi.php";
+include"db.php";
 include"phpqrcode/qrlib.php";
 $folderTemp = 'imageqr/';
 $a = $_POST['id_matrik'];
