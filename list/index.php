@@ -147,7 +147,7 @@
 			$sql = "SELECT * FROM details_members ORDER BY id_matrik DESC";
 			$result = mysqli_query($conn, $sql);
 
-			$datasaya = "<table><tr><th>ID Matrik</th><th>Nama</th><th>Department</th><th>Level</th><th>Branch</th><th>QRcode</th></tr>";
+			$datasaya = "<table><tr><th>ID Matrik</th><th>Nama</th><th>Department</th><th>Level</th><th>Branch</th><th>QRcode</th><th>Action</th></tr>";
 			
 			
 			while($row = mysqli_fetch_assoc($result)){

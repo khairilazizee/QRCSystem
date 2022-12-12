@@ -19,7 +19,7 @@ function showHint(str) {
 </script>
 </head>
 <body>
-
+  
 <p><b>Start typing a name in the input field below:</b></p>
 <form action="">
   <label for="fname">First name:</label>

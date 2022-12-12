@@ -22,13 +22,15 @@ $padding = 10;
 QRCode :: png($c,$folderTemp.$d,$qual,$ukuran,$padding);
 $sql = $conn->query("INSERT INTO details_members VALUE('$a','$b','$e','$f','$g','$d')");
 
-return('index.php');
+
 if($sql){
 	echo"Berjaya";
+	
 }else{
 	echo"gagal";
 	die($conn->error);
 }
+
 
 //echo"$a";
 ?>
