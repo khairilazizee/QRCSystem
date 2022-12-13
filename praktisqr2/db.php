@@ -1,3 +1,3 @@
 <?php
-$conn = new mysqli("localhost","root","","qr_convo");
+$conn = mysqli_connect("localhost","root","","qr_convo");
 ?> 
