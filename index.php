@@ -14,6 +14,9 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Links -->
   <ul class="navbar-nav">
+  <li class="nav-item">
+      <a class="nav-link" href="index.php">Home</a>
+    </li>
     <li class="nav-item">
       <a class="nav-link" href="praktisqr2/index.php">Register</a>
     </li>
@@ -26,7 +29,7 @@
   </ul>
 </nav>
 <center>
-  <img src="image/Banner.png" width="1200" height="800">
+  <img src="image/Banner.png" width="1200" height="650">
 </center>
 
 </body>

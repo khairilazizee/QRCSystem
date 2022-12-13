@@ -10,6 +10,23 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Links -->
+  <ul class="navbar-nav">
+  <li class="nav-item">
+      <a class="nav-link" href="../index.php">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="praktisqr2/index.php">Register</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="list/index.php">List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="qrcodecam/index.php">Cam Scanner</a>
+    </li>
+  </ul>
+</nav>
 
 <div class="container">
   <h2>Register Form</h2>
