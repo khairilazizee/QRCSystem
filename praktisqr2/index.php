@@ -70,8 +70,7 @@
           </select>
       <!--<input type="text" class="form-control" name="fullname">-->
     </div>
-    <a href="http://localhost/QRCSystem/" class="btn btn-primary">Back </a>&nbsp; 
-   &nbsp; <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary">Submit</button>
 
   </form>
 </div>

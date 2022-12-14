@@ -105,7 +105,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 </td>-->
 <td align="center">
 <a href="delete.php?id_matrik=<?php echo $row["id_matrik"]; ?>">Delete</a>&nbsp;&nbsp;
-<a href="print.php?id_matrik=<?php echo $row["id_matrik"]; ?>">Print</a>
+<a href="view_id.php?id_matrik=<?php echo $row["id_matrik"]; ?>">View</a>
 </td>
 </tr>
 <?php $count++; } ?>
