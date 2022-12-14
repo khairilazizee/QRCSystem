@@ -23,14 +23,8 @@ QRCode :: png($c,$folderTemp.$d,$qual,$ukuran,$padding);
 $sql = $conn->query("INSERT INTO details_members VALUE('$a','$b','$e','$f','$g','$d')");
 
 
-if($sql){
-	echo"Berjaya";
-	
-}else{
-	echo"gagal";
-	die($conn->error);
-}
-
+echo "registeration successfully";
+    echo "<meta http-equiv=refresh content=2;URL='index.php'>";
 
 //echo"$a";
 ?>
