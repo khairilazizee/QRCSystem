@@ -11,7 +11,38 @@ require('../praktisqr2/db.php');
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  table {
+            margin: 0 auto;
+            font-size: large;
+            border: 1px solid black;
+        }
+ 
+        h1 {
+            text-align: center;
+            color: #006600;
+            font-size: xx-large;
+            font-family: 'Gill Sans', 'Gill Sans MT',
+            ' Calibri', 'Trebuchet MS', 'sans-serif';
+        }
+ 
+        td {
+            background-color: #d4d5f5;
+            border: 1px solid black;
+        }
+ 
+        th,
+        td {
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+ 
+        td {
+            font-weight: lighter;
+        }
+        </style>
 </head>
 
 <body>
@@ -23,13 +54,13 @@ require('../praktisqr2/db.php');
       <a class="nav-link" href="../index.php">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="praktisqr2/index.php">Register</a>
+      <a class="nav-link" href="../praktisqr2/index.php">Register</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="list/index.php">List</a>
+      <a class="nav-link" href="../list/index.php">List</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="qrcodecam/index.php">Cam Scanner</a>
+      <a class="nav-link" href="../qrcodecam/index.php">Cam Scanner</a>
     </li>
   </ul>
 </nav>
@@ -46,6 +77,7 @@ img
 <table width="100%" border="1" style="border-collapse:collapse;">
 <thead>
 <tr>
+<th><strong>Bil</strong></th>
 <th><strong>No Matrik</strong></th>
 <th><strong>Name</strong></th>
 <th><strong>Department</strong></th>
@@ -61,7 +93,8 @@ $count=1;
 $sql = "SELECT * FROM details_members ORDER BY id_matrik DESC";
 $result = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_assoc($result)) { ?>
-<tr><td align="center"><?php echo $row["id_matrik"]; ?></td>
+<tr><td align="center"><?php echo $count; ?></td>
+<td align="center"><?php echo $row["id_matrik"]; ?></td>
 <td align="center"><?php echo $row["fullname"]; ?></td>
 <td align="center"><?php echo $row["department"]; ?></td>
 <td align="center"><?php echo $row["level"]; ?></td>
@@ -71,7 +104,8 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a>
 </td>-->
 <td align="center">
-<a href="delete.php?id=<?php echo $row["id_matrik"]; ?>">Delete</a>
+<a href="delete.php?id_matrik=<?php echo $row["id_matrik"]; ?>">Delete</a>&nbsp;&nbsp;
+<a href="print.php?id_matrik=<?php echo $row["id_matrik"]; ?>">Print</a>
 </td>
 </tr>
 <?php $count++; } ?>
