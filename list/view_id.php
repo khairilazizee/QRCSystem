@@ -84,7 +84,7 @@ img
 <?php
 $count=1;
 $_GET= ["id_matrik"];
-$sql = "SELECT * FROM details_members ORDER BY id_matrik='$_GET[id_matrik]'";
+$sql = "SELECT * FROM details_members ORDER BY id_matrik DESC";
 $result = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_assoc($result)) { ?>
 <tr>

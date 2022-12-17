@@ -74,7 +74,7 @@ img
 <body>
 <div class="form">
 <h2>View Records</h2>
-<table width="100%" border="1" style="border-collapse:collapse;">
+<table width="90%" border="1" style="border-collapse:collapse;">
 <thead>
 <tr>
 <th><strong>Bil</strong></th>
