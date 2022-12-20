@@ -48,7 +48,7 @@ if (mysqli_connect_errno())
 }
 // lookup all hints from array if $q is different from ""
 if ($q !="") {
-  /*$q = strtolower($q);
+  $q = strtolower($q);
   $len=strlen($q);
   foreach($a as $name) {
     if (stristr($q, substr($name, 0, $len))) {
@@ -58,7 +58,7 @@ if ($q !="") {
         $hint .= ", $name";
       }
     }
-  }*/
+  }
 $result=mysqli_query($con,"SELECT * FROM logs WHERE name='$q'");
 $rowcount=mysqli_num_rows($result);
 if($rowcount==0){

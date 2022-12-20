@@ -1,4 +1,3 @@
-
 <title>QRC System</title>
 <script src="ht.js"></script>
 <style>
@@ -38,18 +37,16 @@ function showHint(str) {
     xmlhttp.send();
   }
 }
-
 function playAudio() { 
   x.play(); 
 } 
-
-
   </script>
   <div class="col" style="padding:30px;">
     <!--<h4>SCAN RESULT</h4>
     <div>Employee name</div>--><form action="">
      <input type="text" name="start" class="input" id="result" onkeyup="showHint(this.value)" placeholder="result here" readonly="" /></form>
      <!--<p>Status: <span id="txtHint"></span></p>-->
+     <img src="../image/img/bg1.jpg" height='170px' width='1140px' id="txtHint"/>
   </div>
 </div>
 <script type="text/javascript">
@@ -57,7 +54,6 @@ function onScanSuccess(qrCodeMessage) {
     document.getElementById("result").value = qrCodeMessage;
     showHint(qrCodeMessage);
 playAudio();
-
 }
 function onScanError(errorMessage) {
   //handle scan error
@@ -65,7 +61,6 @@ function onScanError(errorMessage) {
 var html5QrcodeScanner = new Html5QrcodeScanner(
     "reader", { fps: 10, qrbox: 250 });
 html5QrcodeScanner.render(onScanSuccess, onScanError);
-
 </script>
 <div>
   <a href="http://localhost/QRCSystem/">back</a>
