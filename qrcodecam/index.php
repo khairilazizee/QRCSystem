@@ -45,7 +45,7 @@ function playAudio() {
     <!--<h4>SCAN RESULT</h4>
     <div>Employee name</div>--><form action="">
      <input type="text" name="start" class="input" id="result" onkeyup="showHint(this.value)" placeholder="result here" readonly="" /></form>
-     <!--<p>Status: <span id="txtHint"></span></p>-->
+    <p>Status: <span id="txtHint"></span></p>
      <img src="../image/img/bg1.jpg" height='170px' width='1140px' id="txtHint"/>
   </div>
 </div>
