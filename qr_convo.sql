@@ -40,8 +40,6 @@ CREATE TABLE `details_members` (
 -- Dumping data for table `details_members`
 --
 
-INSERT INTO `details_members` (`id_matrik`, `fullname`, `department`, `level`, `branch`, `imageqr`) VALUES
-('mcs214560', 'test', 'mcs214560.png', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -58,10 +56,7 @@ CREATE TABLE `logs` (
 -- Dumping data for table `logs`
 --
 
-INSERT INTO `logs` (`name`, `Time`) VALUES
-('mcs123456', '2022-12-10 23:07:46'),
-('testor', '2022-12-10 23:14:55');
-COMMIT;
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
