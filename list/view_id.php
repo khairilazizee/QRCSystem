@@ -106,7 +106,8 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <tbody>
 <?php $count++; } ?>
 </tbody>
-</table>
+</table><br>
+<center><a href="http://localhost/QRCSystem/list/index.php" class="btn btn-primary">Back</a>&nbsp;&nbsp;<button onclick="window.print();" class="btn btn-danger">Print</button></center>
 </div>
 </body>
 </html>

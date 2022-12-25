@@ -43,9 +43,8 @@ require('../Register/db.php');
             font-weight: lighter;
         }
         </style>
-</head>
 
-<body>
+
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <!-- Links -->
@@ -65,15 +64,10 @@ require('../Register/db.php');
   </ul>
 </nav>
 
-<meta charset="utf-8">
-<title>View Records</title>
-<style>
-img
-    </style>
 </head>
 <body>
 <div class="form">
-<h2>View Records</h2>
+<centre><h2>View Records</h2></centre>
 <table width="90%" border="1" style="border-collapse:collapse;">
 <thead>
 <tr>
