@@ -99,7 +99,7 @@ while($row = mysqli_fetch_assoc($result)) { ?>
 <td align="center"><?php echo $row["department"]; ?></td>
 <td align="center"><?php echo $row["level"]; ?></td>
 <td align="center"><?php echo $row["branch"]; ?></td>
-<td align="center"><?php echo "<img src='../praktisqr2/imageqr/".$row['imageqr']."' height='100' width='100'>"; ?></td>
+<td align="center"><?php echo "<img src='../Register/imageqr/".$row['imageqr']."' height='100' width='100'>"; ?></td>
 <!--<td align="center">
 <a href="edit.php?id=<?php echo $row["id"]; ?>">Edit</a>
 </td>-->

@@ -89,7 +89,7 @@ $result = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_assoc($result)) { ?>
 <tr>
 <tr><th><strong>QR Codes</strong></th>
-<td  align="center"><?php echo "<img src='../praktisqr2/imageqr/".$row['imageqr']."' height='180' width='180'>"; ?></td>
+<td  align="center"><?php echo "<img src='../Register/imageqr/".$row['imageqr']."' height='180' width='180'>"; ?></td>
 </tr>
 <tr><th><strong>No Matrik</strong></th>
 <td><?php echo $row["id_matrik"]; ?></td></tr>
