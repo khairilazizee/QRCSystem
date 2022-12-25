@@ -41,7 +41,7 @@ CREATE TABLE `details_members` (
 --
 
 INSERT INTO `details_members` (`id_matrik`, `fullname`, `department`, `level`, `branch`, `imageqr`) VALUES
-('900110115305', 'AMIRUL SYUSHAIDI', 'Computer System', '2', 'Breyer Kuala Lumpur', '900110115305.png');
+('900110115305', 'AMIRUL ', 'Computer System', '2', 'Breyer Kuala Lumpur', '9001.png');
 
 -- --------------------------------------------------------
 
