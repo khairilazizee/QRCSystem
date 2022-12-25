@@ -1,5 +1,5 @@
 <?php
-require('../praktisqr2/db.php');
+require('../Register/db.php');
 
 ?>
 <!DOCTYPE html>
