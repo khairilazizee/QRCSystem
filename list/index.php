@@ -68,6 +68,7 @@ require('../Register/db.php');
 <body>
 <div class="form">
 <centre><h2>View Records</h2></centre>
+<button onclick="window.print();" class="btn btn-danger">Print</button>
 <table width="90%" border="1" style="border-collapse:collapse;">
 <thead>
 <tr>
