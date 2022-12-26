@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 25, 2022 at 03:19 PM
+-- Generation Time: Dec 26, 2022 at 03:29 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.1.12
 
@@ -41,7 +41,7 @@ CREATE TABLE `details_members` (
 --
 
 INSERT INTO `details_members` (`id_matrik`, `fullname`, `department`, `level`, `branch`, `imageqr`) VALUES
-('900110115305', 'AMIRUL ', 'Computer System', '2', 'Breyer Kuala Lumpur', '9001.png');
+('mcs1248', 'test', 'Computer System', '2', 'Breyer Kuala Lumpur', 'mcs1248.png');
 
 -- --------------------------------------------------------
 
